@@ -103,6 +103,9 @@ h1, h2, h3, h4, h5, h6 {
 ul {
   margin-bottom: 0px;
 }
+.white-background {
+  background: #fff;
+}
 
 /* 
 ---------------------------------------------
@@ -486,7 +489,6 @@ welcome
 .welcome .welcome-content .slider-wrapper {
   position: absolute;
   top: 0px;
-  padding-left: 70px;
 }
 .welcome .welcome-content .slider-wrapper .base {
   position: absolute;

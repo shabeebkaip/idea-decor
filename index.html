@@ -44,10 +44,15 @@
 
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/b5f3bb2dbe.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </head>
   <body>
     <!-- ***** Preloader Start ***** -->
@@ -79,9 +84,15 @@
                   <a href="project-grid.html">Projects</a>
                 </li>
                 <li>
-                  <a href="about-us.html">About Us</a>
+                  <a href="gallery.html">Gallery</a>
                 </li>
-                <li><a class="contact-btn" href="contact.html">Contact</a></li>
+                <li>
+                  <a href="#about">About Us</a>
+                </li>
+
+                <li>
+                  <a href="#contact">Contact Us </a>
+                </li>
                 <li>
                   <a
                     class="contact-btn"
@@ -112,7 +123,7 @@
               <div class="welcome-text">
                 <h1>Elevate your Space with Inspired Designs</h1>
                 <p>Transforming Spaces, Enhancing Lives</p>
-                <a class="dark-btn" href="project-grid.html">
+                <a class="gold-btn" href="project-grid.html">
                   <span class="show-btn">CONTACT US </span>
                   <span class="hide-btn">CONTACT US</span>
                 </a>
@@ -167,7 +178,7 @@
       </div>
     </div>
     <!-- ***** Welcome Area End ***** -->
-    <section class="page">
+    <section class="page services">
       <!-- ***** Page Top Start ***** -->
       <div class="cover" data-image="assets/images/photos/parallax/bg-1.jpg">
         <div class="cover-top">
@@ -271,7 +282,7 @@
     <!-- ***** Home Parallax Area End ***** -->
 
     <!-- ***** Features Big Item Start ***** -->
-    <section class="section half-parallax padding-bottom-120">
+    <section class="section padding-bottom-120" id="about">
       <div class="container">
         <div class="row">
           <div
@@ -398,125 +409,120 @@
     <!-- ***** Counter Parallax End ***** -->
 
     <!-- ***** Our Team Start ***** -->
-    <section class="section">
+    <section class="section" style="background-color: #f5f5f5">
       <div class="container">
         <!-- ***** Section Title Start ***** -->
         <div class="row">
           <div class="col-lg-12">
             <div class="center-heading">
-              <h2 class="section-title">Our Team</h2>
+              <h2 class="section-title">Clientele</h2>
             </div>
           </div>
           <div class="offset-lg-3 col-lg-6">
             <div class="center-text">
-              <p>Crafting Spaces with Expertise and Passion.</p>
+              <p>Crafting personalized spaces for a diverse clientele</p>
             </div>
           </div>
         </div>
         <!-- ***** Section Title End ***** -->
-
-        <div class="row">
-          <!-- ***** Team Item Start ***** -->
-          <div class="col-lg-4 col-md-6 col-sm-12 position-relative">
-            <div class="person-item">
+        <div class="swiper" style="padding: 10px">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
               <div class="img">
                 <img
-                  src="assets/images/photos/team/sahad.png"
+                  src="assets/images/photos/logos/Millennium-Hotels-And-Resorts-Logo_With-Tagline-sq.jpg"
                   alt=""
                   width="150"
                   height="150"
                 />
               </div>
-              <div class="content">
-                <div class="text">
-                  <h5 class="user-name">Muhammed Sahad</h5>
-                  <span>Managing Partner</span>
-                  <ul class="social">
-                    <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </div>
-          <!-- ***** Team Item End ***** -->
-
-          <!-- ***** Team Item Start ***** -->
-          <div class="col-lg-4 col-md-6 col-sm-12 position-relative">
-            <div class="person-item active">
+            <div class="swiper-slide">
               <div class="img">
                 <img
-                  src="assets/images/photos/team/azhar.png"
+                  src="assets/images/photos/logos/WhatsApp Image 2023-04-12 at 02.36.30.jpg"
                   alt=""
                   width="150"
                   height="150"
                 />
               </div>
-              <div class="content">
-                <div class="text">
-                  <h5 class="user-name">Azhar Muhammed</h5>
-                  <span>Managing Partner</span>
-                  <ul class="social">
-                    <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </div>
-          <!-- ***** Team Item End ***** -->
-
-          <!-- ***** Team Item Start ***** -->
-          <div class="col-lg-4 col-md-6 col-sm-12 position-relative">
-            <div class="person-item">
+            <div class="swiper-slide">
               <div class="img">
-                <img src="assets/images/photos/team/3.jpg" alt="" />
-              </div>
-              <div class="content">
-                <div class="text">
-                  <h5 class="user-name">Muhammed Jishad</h5>
-                  <span>ELV Department Head</span>
-                  <ul class="social">
-                    <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-github"></i></a>
-                    </li>
-                  </ul>
-                </div>
+                <img
+                  src="assets/images/photos/logos/WhatsApp Image 2023-04-12 at 02.37.07.jpg"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
               </div>
             </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img
+                  src="assets/images/photos/logos/WhatsApp Image 2023-04-12 at 04.03.46.jpg"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img
+                  src="assets/images/photos/logos/WhatsApp Image 2023-04-12 at 04.04.44.jpg"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img
+                  src="assets/images/photos/logos/WhatsApp Image 2023-04-12 at 04.05.40.jpg"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img
+                  src="assets/images/photos/logos/WhatsApp Image 2023-04-12 at 04.07.00.jpg"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img
+                  src="assets/images/photos/logos/WhatsApp Image 2023-04-12 at 04.08.25.jpg"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
+              </div>
+            </div>
+
+            ...
           </div>
-          <!-- ***** Team Item End ***** -->
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </div>
     </section>
 
-    <section class="page">
+    <section class="page" style="background-color: #f5f5f5" id="contact">
       <!-- ***** Page Top Start ***** -->
       <div class="cover" data-image="assets/images/photos/cover.jpg">
         <div class="cover-top">
@@ -721,6 +727,31 @@
     <script src="assets/js/imgfix.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        slidesPerView:
+          window.innerWidth < 768 ? 1.1 : window.innerWidth < 992 ? 3 : 4,
+        spaceBetween: 20,
+        // Optional parameters
+        direction: "horizontal",
+
+        // If we need pagination
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //   el: ".swiper-scrollbar",
+        // },
+      });
+    </script>
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>

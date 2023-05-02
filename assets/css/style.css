@@ -1163,6 +1163,21 @@ parallax
     margin-top: 0px;
   }
 }
+@media screen and (min-width: 993px) and  (max-width : 1400px) {
+  .half-parallax .parallax-items .parallax-item {
+    height: 400px;
+  }
+}
+@media screen and (max-width : 768px) {
+  .half-parallax .parallax-items .parallax-item {
+    height: 550px;
+  }
+}
+@media screen and (min-width: 769) and  (max-width : 992px)  {
+  .half-parallax .parallax-items .parallax-item {
+    height: 700px;
+  }
+}
 /* 
 ---------------------------------------------
 our team

@@ -1257,7 +1257,15 @@ our team
 }
 .swiper-item {
   display: flex; 
-  justify-content: center
+  justify-content: center;
+  align-items: center;
+}
+.swiper-item img {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
 }
 .swiper-button-next {
   --swiper-theme-color: #161616
@@ -1795,14 +1803,13 @@ pages
   margin-bottom: 30px;
 }
 .page .page-bottom .project-grid .project-grid-item .img {
-   
-}
-.page .page-bottom .project-grid .project-grid-item .img img {
   width: 100%;
-  height: 100%;
+   height: 450px; 
+  object-fit: cover;
   object-fit: cover;
   border-radius: 10px;
 }
+
 .page .page-bottom .project-grid .project-grid-item .text {
   background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);

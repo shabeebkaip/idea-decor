@@ -351,6 +351,12 @@ header
 
   } 
 }
+@media only screen and (max-width: 792px) and (min-width: 300px) {
+ .main-nav .logo {
+  position: relative;
+  right: 15%;
+ }
+}
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
@@ -1018,7 +1024,7 @@ parallax
   margin-top: -140px;
 }
 .half-parallax .parallax-items .parallax-item {
-  background: rgb(223 223 223);
+  background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.13);
   padding: 55px 40px;
   text-align: center;

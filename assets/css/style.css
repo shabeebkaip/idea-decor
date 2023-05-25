@@ -1492,6 +1492,7 @@ our team
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .swiper-item img {
@@ -1508,6 +1509,16 @@ our team
 
 .swiper-button-prev {
   --swiper-theme-color: #bf9859
+}
+
+@media screen and (max-width : 767px) {
+  .swiper-button-next {
+    visibility: hidden;
+  }
+
+  .swiper-button-prev {
+    visibility: hidden;
+  }
 }
 
 /* 

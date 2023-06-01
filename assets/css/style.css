@@ -188,7 +188,7 @@ header
   right: 0px;
   z-index: 1000;
   height: 100px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(31, 33, 40, 0.9);
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: row;
@@ -230,7 +230,7 @@ header
   display: block;
   font-weight: 400;
   font-size: 14px;
-  color: #1F2128;
+  color: #bf9859;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
